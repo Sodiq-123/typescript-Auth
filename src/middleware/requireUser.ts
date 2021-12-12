@@ -7,7 +7,7 @@ const requireUser = (req: Request, res: Response, next: NextFunction) => {
     return res.status(403).json({ error: 'You must be logged in to access this route' })
   }
   
-  return next()
+  next()
 }
 
 
