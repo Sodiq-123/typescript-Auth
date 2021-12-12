@@ -4,7 +4,8 @@
   "description": "CRUD API (Auth) with Express and Typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
