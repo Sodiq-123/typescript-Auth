@@ -1,0 +1,55 @@
+{
+  "name": "typescript-auth",
+  "version": "1.0.0",
+  "description": "CRUD API (Auth) with Express and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sodiq-123/typescript-Auth.git"
+  },
+  "keywords": [
+    "Express",
+    "Typescript"
+  ],
+  "author": "Sodiq Agunbiade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sodiq-123/typescript-Auth/issues"
+  },
+  "homepage": "https://github.com/Sodiq-123/typescript-Auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.1",
+    "nanoid": "^3.1.30",
+    "pino": "^7.5.1",
+    "pino-pretty": "^7.2.0",
+    "yup": "^0.32.11",
+    "zod": "^3.11.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/config": "^0.0.40",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/lodash": "^4.14.178",
+    "@types/mongoose": "^5.11.97",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^16.11.12",
+    "@types/pino": "^7.0.5",
+    "@types/yup": "^0.29.13",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.3"
+  }
+}
